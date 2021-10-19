@@ -1,0 +1,19 @@
+@font-face {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+@test { }
+
+body { 
+    background-color: cadetblue;
+}
+
+p {
+    background-color: black;
+    display: inline;
+    width: 100%;
+    flex: auto;
+    -webkit-flex: flex;
+}
+
+#ab { }
