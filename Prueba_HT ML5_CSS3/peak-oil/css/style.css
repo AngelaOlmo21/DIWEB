@@ -1,0 +1,66 @@
+body{
+    background-color: hsl(0, 0%, 81%);
+}
+
+h1{
+    text-align: right;
+}
+
+aside{
+    width: 70px;
+    padding: 3px;
+    color: blue;
+    background-color: white;
+    border-style: double;
+    border-color: black;
+}
+
+#primero{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 90%);
+    width: 80%;
+    margin-left: 130px;
+    text-align: center;
+}
+#posturas{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 90%);
+    width: 80%;
+    margin-left: 130px;
+    text-align: left;
+
+}
+
+#futuro{
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 90%);
+    width: 80%;
+    margin-left: 130px;
+    text-align: center;
+
+}
+h2{
+    background-color: hsl(0, 0%, 50%);
+    color: white;
+    text-align: left;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+h3{
+    background-color: hsl(300, 1%, 70%);
+    color: white;
+    text-align: left;
+    padding: 5px;
+    
+    
+}
+.posturas{
+    width: 95%;
+    background-color: hsl(120, 50%, 99%);
+    margin-left: 30px;
+}
+
+.pie{
+    background-color: hsl(47, 87%, 52%);
+}

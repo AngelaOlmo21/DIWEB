@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+body{
+    background: url('../img/violeta.png') repeat-y top left, url('../img/violeta.png') repeat-y right top;
+    background-color: hsl(212, 65%, 78%);
+    background-size: 50px;
+}
+h1{
+    font-family: 'Irish Grover', cursive;
+    text-decoration-style: double; 
+    text-decoration-color: white;
+    color: hsl(242, 29%, 51%);
+    text-align: center;
+}
+
+.intro{
+    background-color: white;
+    display: flex;
+    margin-left: 40px;
+    padding: 5px;
+    width: 93%;
+    height: 30%;
+    text-align: justify;
+}
+
+div.naranja{
+    display: inline-flex;
+    flex-flow: column;
+    margin-top: 20px;
+    margin-left: 140px;
+    font-size: 25px;
+    border-radius: 5px;
+    width: 250px;
+    height: 250px;
+    background-color: hsl(27, 89%, 55%);
+    border-color: white;
+    border-style: dotted;
+}
+
+div.verde{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 140px;
+    border-radius: 5px;
+    font-size: 25px;
+    width: 250px;
+    height: 250px;
+    background: url('../img/verde.png');
+    border-color: hsl(100, 93%, 21%);
+    border-style: solid;
+}
