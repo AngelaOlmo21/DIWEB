@@ -80,7 +80,7 @@ table {
   background-color: #2980B9;
 }
 .caja3:hover{
-  transform: translate(10%);
+   transform: translate(10%);
 }
 .caja4{
   background-color: #3498DB;
