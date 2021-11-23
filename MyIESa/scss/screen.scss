@@ -1,0 +1,59 @@
+$text-color: #eee;
+$text-color-hover: #fff ;
+$bg-color: #666;
+$bg-color-hover: #888 ;
+
+@mixin color-text() {
+    color: $text-color;
+    background-color: $bg-color;
+}
+
+@mixin color-hover() {
+    color: $text-color-hover;
+    background-color: $bg-color-hover;
+}
+
+@mixin box-sizing($box-size) {
+    -webkit-box-sizing: $box-size;
+    -moz-box-sizing: $box-size;
+    box-sizing: $box-size;
+}
+
+@mixin animacion($name, $duration, $timing:linear) {
+    animation: $name, $duration, $timing;
+    -moz-animation: $name, $duration, $timing;
+    -webkit-animation: $name, $duration, $timing;
+}
+
+@mixin transition($property, $duration, $timing:linear) {
+    transition: $property, $duration, $timing;
+    -moz-transition: $property, $duration, $timing;
+    -webkit-transition: $property, $duration, $timing;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+header {
+    padding: 12px 30px;
+    font-size: 1.8em;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #aaa;
+    color: #444;
+    background-color: #eee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@import "_menu.scss";
+
+footer{
+    @include color-text;
+    @include box-sizing(border-box);
+    position: absolute;
+    width: 100%;
+    bottom:0px;
+    padding: 5px;
+}
